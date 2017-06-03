@@ -23,8 +23,15 @@ class Comment extends Component {
     } else if(this.state.replyContent.trim().length === 0) {
       this.props.Materialize.toast('Reply cannot be blank', 4000);
     } else {
-      this.props.addReply(this.props.commentId, this.state.replyContent);
-      this.setState({replyContent: ''});
+      const reply = {
+        name: this.props.name,
+        time: new Date(),
+        content: this.state.replyContent,
+      };
+      let replies = this.state.replies;
+      replies.push(reply);
+      this.props.addReply(this.props.commentId, reply);
+      this.setState({replyContent: '', replies: replies});
       this.toggleReply(true);
     }
   }

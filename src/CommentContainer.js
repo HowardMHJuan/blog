@@ -62,12 +62,12 @@ class CommentContainer extends Component {
       body: JSON.stringify(comment),
     });
   }
-  addReply = (commentId, replyContent) => {
-    const reply = {
-      name: this.props.name,
-      time: new Date(),
-      content: replyContent,
-    };
+  addReply = (commentId, reply) => {
+    // const reply = {
+    //   name: this.props.name,
+    //   time: new Date(),
+    //   content: replyContent,
+    // };
     // let comments = this.state.comments;
     // comments[commentId].replies.push(reply);
     // this.setState({
