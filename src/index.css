@@ -1,5 +1,24 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+
+html {
+  min-height: 100%;
+  height: auto;
+  font-family: "Noto Sans", "Noto Sans TC", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  background-color: rgba(224, 242, 241, 1);
 }
+
+body, #root {
+  min-height: 40em;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-size: 0.9em;
+  bottom: 0;
+  width: 100%;
+}
+

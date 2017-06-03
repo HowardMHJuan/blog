@@ -1,0 +1,13 @@
+.CommentContainer textarea{
+  min-height: 1em;
+  height: 1em;
+}
+
+.cke_textarea_inline {
+  border-bottom: 0.03em solid rgba(0, 0, 0, 0.4);
+  min-height: 3em;
+}
+
+a {
+  margin: 2em 0 0 0;
+}

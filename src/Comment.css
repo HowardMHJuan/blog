@@ -1,0 +1,32 @@
+.Comment textarea {
+  min-height: 1em;
+  height: 1em;
+}
+
+.Comment p {
+  text-align: left;
+  margin: 0;
+}
+
+.comment-name {
+  margin: 0 0 0.5em 0;
+  cursor: pointer;
+}
+
+#comment-name {
+  font-size: 1.3em;
+  border-left: 0.6em solid rgba(0, 0, 0, 0.4);
+}
+
+#comment-time {
+  font-size: 0.8em;
+  margin-top: 0.7em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#comment-content {
+  padding: 0 0 0 3em;
+  color: rgba(0, 0, 0, 0.6);
+  word-break: break-all;
+  cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.App-header p {
+  font-size: 3em;
+  margin: 0 0 0 0;
+}
+
+.login-section,
+.login-section p {
+  text-align: right;
+  height: 0em;
+  margin: 0 2em 0 0;
+}
+
+.fb-login-button,
+.btn {
+  margin: 4.3em 0 0 0;
+}
