@@ -102,6 +102,7 @@ class CommentContainer extends Component {
           commentId={this.state.singleID}
           key={this.state.singleID}
           name={comment.name}
+          loginName={this.props.name}
           time={comment.time}
           content={comment.content}
           replies={comment.replies}

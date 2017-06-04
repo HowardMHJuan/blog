@@ -24,7 +24,7 @@ class Comment extends Component {
       this.props.Materialize.toast('Reply cannot be blank', 4000);
     } else {
       const reply = {
-        name: this.props.name,
+        name: this.props.loginName,
         time: new Date(),
         content: this.state.replyContent,
       };
